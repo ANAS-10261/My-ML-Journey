@@ -1,5 +1,5 @@
 # My-ML-Journey
-My entire codebase with regard to ML implementation as well as python and other library basics for motivation, consistency and a way to track progress.
+My entire codebase with regards to ML implementation as well as python and other library basics for motivation, consistency and a way to track progress.
 A personal, end to end record of everything I am learning and building across Data Science, Machine Learning, Deep Learning, and Natural Language Processing. This repository serves as my study log, code playground, and progress tracker.
 ---
 ## 📚 Table of Contents
