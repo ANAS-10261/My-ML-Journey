@@ -1,0 +1,18 @@
+In 2026, the hype for artificial intelligence agents is louder than ever before. These semi-autonomous programs can “think” and execute well-defined tasks in areas like customer service and software development, typically using language models (LMs). But fields like medical diagnosis and scientific discovery require them to inquire about a vast range of solutions in uncertain environments, which LMs struggle with.
+
+Researchers at MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) and Harvard University’s School of Engineering and Applied Sciences (SEAS) peered deeper into LMs to understand their main issues in high-stakes settings. Their test: “Battleship,” a classic guessing game that’s helped cognitive scientists study how humans seek information. 
+
+CSAIL and SEAS scholars added a twist by reframing the game around asking and answering natural language questions. In their “Collaborative Battleship” game, one participant is a “captain” who inquires about where hidden ships are, while their teammate plays the “spotter” by responding to those questions in real-time.
+
+The researchers first had over 40 humans play the game together, collecting their questions and yes-no answers to build the “BattleshipQA” dataset. These results were a helpful point of comparison when the team tested state-of-the-art LMs (like GPT-5) and smaller models (like Llama 4 Scout) on their game. Without training the models beforehand, they found that top LMs can “beat” humans at “Battleship” — that is, complete the game in fewer turns — but smaller systems are far less rational.
+
+The chief issue was that many models are simply not adept at coming up with useful questions. To get LMs to inquire in ways that reveal more information about hidden ships, the researchers gave each model a Monte Carlo inference strategy, which carefully measures the likelihood of different options being correct with each response. The result: AI models that can beat regular players at “Battleship,” regardless of scale.
+
+Perhaps the most striking results were Llama 4 Scout’s gains. As a relatively small LM, it only beat humans 8 percent of the time. But with refinements to its inference strategy, the model reached a “Battleship” win rate of 82 percent versus humans. This careful and efficient style of asking questions also enabled the model to outpace a frontier model (GPT-5), while operating at around 1 percent of its cost.
+
+On top of this improvement, the researchers shrank the gap between humans and LMs in answering questions. While GPT-5 was a reliable spotter that helped models finish games faster, smaller systems had a bad habit of giving the wrong answers about where ships were hidden. The models saw an accuracy boost of 15 percent on average when they began converting questions into code that explicitly tells them how to verify their answers (for example, having the model run a quick search of an area when asked if a ship was there). 
+
+“Today’s language models are primarily optimized to answer complex queries, but it’s less clear whether they learn to ask good questions for themselves,” says MIT PhD student and CSAIL researcher Gabriel Grand SM ’23, who is a lead author on a paper about the work. “Our work shows that asking informative questions depends on the ability to predict and simulate the world. We find that when we give agents access to a ‘world model,’ they ask better questions and make discoveries more efficiently.”
+
+~ Excerpt by Alex Shipps | MIT CSAIL
+Publication Date:June 3, 2026
