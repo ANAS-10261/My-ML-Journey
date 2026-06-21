@@ -2,3 +2,9 @@ ipykernel
 scikit-learn
 pandas
 numpy
+lxml
+matplotlib
+seaborn
+requests
+html5lib
+openpyxl
