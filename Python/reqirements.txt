@@ -8,3 +8,4 @@ seaborn
 requests
 html5lib
 openpyxl
+flask
